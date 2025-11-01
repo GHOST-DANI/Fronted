@@ -1,42 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Guía Turística + Lista de Tareas</title>
-  <meta name="description" content="Los lugares mas bonitos de cali, lo de mas es loma">
-  <link name="canonical" herf="">
-  <meta name="robots" content="index, follow">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de ejemplo</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>Esto es lo que sé.</h1>
+        <div id="info" style="display: none;"></div>
+        <button onclick="toggleh1('HTML')">HTML</button>
+        <button onclick="toggleh1('CSS')">CSS</button>
+        <button onclick="toggleh1('JS')">JS</button>
+    </header>
 
-  <header>
-    <h1>Guía Turística de Cali 🇨🇴</h1>
-    <p>Descubre los lugares más emblemáticos y organiza tu viaje</p>
-    <button onclick="toggleQuienesSomos()">Quiénes Somos</button>
-<div id="quienes-somos" style="display: none;"></div>
-  </header>
-
-  <!-- Sección de galería turística -->
-  <section>
-    <h2>Lugares para visitar</h2>
-    <div class="container" id="galeria"></div>
-  </section>
-
-  <!-- Sección de lista de tareas -->
-  <section>
-    <h2>Mi lista de actividades</h2>
-    <form id="task-form">
-      <input type="text" id="task-input" placeholder="Escribe una tarea..." required>
-      <button type="submit">Agregar</button>
-    </form>
-    <ul id="task-list"></ul>
-  </section>
-
-  <footer>
-    &copy; 2025 Guía Turística de Cali | Diseñado con ❤️ desde la Sucursal del Cielo
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
+
