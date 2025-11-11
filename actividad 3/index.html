@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugatti</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <header class="encabezado">
+    <h1>Bugatti</h1>
+    <h3>fundado por Ettore Bugatti en 1909. La marca es conocida por sus vehículos de alta gama, potentes y exclusivos, ensamblados a mano en Molsheim, Francia, y pertenece actualmente al Grupo Volkswagen (desde 1998) y posteriormente a la empresa Bugatti Rimac. Algunos de sus modelos más emblemáticos son el Chiron, el Divo y el clásico Tipo 35, un coche de carreras de gran éxito</h3>
+    <button onclick="togglea1()">Por que Bugatti</button>
+    <div id="a1" style="display: none;" ></div>
+     </header>
+     <div class="container mt-5">
+    <h2 class="text-center mb-4">Disponible</h2>
+    <div class="row g-4">
+      
+      <div class="col-12 col-md-4">
+        <div class="card text-center shadow-sm">
+          <img src="bolide.jpg" class="card-img-top mx-auto mt-3 rounded-circle" alt="Foto de perfil">
+          <div class="card-body">
+            <h5 class="card-title">Bolide</h5>
+            <p class="card-text">Es un hiperdeportivo exclusivo para pistas.</p>
+            <p>$4,000,000</p>
+            <button onclick="toggleb1()">Especificaciones</button>
+            <div id="b1" style="display: none;"></div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-12 col-md-4">
+        <div class="card text-center shadow-sm">
+          <img src="01_CHIRON_front_WEB.0.0.1456740554.jpg" class="card-img-top mx-auto mt-3 rounded-circle" alt="Foto de perfil">
+          <div class="card-body">
+            <h5 class="card-title">Chiron</h5>
+            <p class="card-text">Es un hipercoche de producción conocido por su velocidad extrema y lujo.</p>
+            <p>$4.175.890</p>
+            <button onclick="toggleb2()">Especificaciones</button>
+            <div id="b2" style="display: none;"></div>
+          </div>
+        </div>
+      </div>
+
+    
+      <div class="col-12 col-md-4">
+        <div class="card text-center shadow-sm">
+          <img src="bugvey00.jpg" class="card-img-top mx-auto mt-3 rounded-circle" alt="Foto de perfil">
+          <div class="card-body">
+            <h5 class="card-title">Veyron</h5>
+            <p class="card-text">Es un superdeportivo biplaza.</p>
+            <p>$1.527.000</p>
+            <button onclick="toggleb3()">Especificaciones</button>
+            <div id="b3" style="display: none;"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <footer>
+    &copy; 2025 Lo mejor de Bugatti | Cumple tu sueño de tenerlo
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
