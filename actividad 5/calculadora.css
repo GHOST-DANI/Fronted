@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    position: relative;
+    left: 10cm;
+    color: white;
+}
+.a1{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    border:1px solid mediumpurple;
+    box-shadow: 10px 10px 10px 10px rebeccapurple;
+    gap: 25px;
+}
+.box #resultado{
+    background: white;
+    border-radius: 10px;
+    min-height: 100px;
+    height: 20px;
+    color: blue;
+    padding: 5 px 10px;
+    text-align: center;
+    font-family: "ponppins", sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+}
+input{
+    padding: 5px 8px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid royalblue;
+}
+input:focus{
+    box-shadow: -1px 0px 9px -1px royalblue;
+}
+button:hover{
+    background-color: rebeccapurple;
+    scale: 1.05;
+    box-shadow: 1px 2px 9px 0px red(0,0,0,0.75);
+}
+
+button{
+    background: darkmagenta;
+    border-radius: 5px ;
+}
+button:active{
+    transform: scale(0.95);
+}
+#resultado{
+    margin-top: 20px;
+}
+
+.limpiar{
+    width: 80px;
+    background: red;
+
+}
